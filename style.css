@@ -1,0 +1,187 @@
+.navbar{
+	position: relative;
+	z-index: 1;
+}
+
+.navbar .nav-item{
+	background-color: grey;
+}
+
+.navbar-brand{
+	width: 194px;
+	height: 53px;
+	background: url(img/riseloka.png);
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+/*JUMBOTRON*/
+
+.jumbotron{
+	background-image: url(img/banner.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.jumbotron .display-4{
+	font-family: Gilroy-Bold,sans-serif;
+	font-size: 44px;
+	line-height: 60px;
+	text-align: center;
+	margin-top: 100px;
+	font-weight: bold;
+}
+
+.jumbotron .lead{
+	font-family: Roboto;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+}
+/*JUMBOTRON AKHIR*/
+
+/*button*/
+.container button {
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+.container button:hover {
+    background-color: white;
+    color: #4C3494;
+}
+/*button akhir*/
+
+
+
+
+
+
+@media (min-width: 992px) { 
+.navbar{
+	position: relative;
+	z-index: 1;
+	background-color: transparent;
+}
+
+.navbar .nav-item{
+	background-color: transparent;
+}
+
+.navbar-brand{
+	width: 194px;
+	height: 53px;
+	background: url(img/riseloka.png);
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.nav-link{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+nav ul li:nth-last-child(1) a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+nav ul li:nth-last-child(1) a img {
+    width: 25px;
+    height: 25px;
+}
+
+
+/*JUMBOTRON*/
+
+.jumbotron{
+	background-image: url(img/banner.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.jumbotron .display-4{
+	font-family: Gilroy-Bold,sans-serif;
+	font-size: 50px;
+	line-height: 60px;
+	text-align: center;
+	margin-top: 155px;
+	font-weight: bold;
+}
+
+.jumbotron .lead{
+	font-family: Roboto;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 20px;
+}
+/*JUMBOTRON AKHIR*/
+
+
+
+
+
+.container button {
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease;
+    text-align: center;
+    margin-left: 465px;
+    margin-top: 20px;
+}
+
+.container button:hover {
+    background-color: white;
+    color: #4C3494;
+}
+/*button akhir*/
+
+
+}
