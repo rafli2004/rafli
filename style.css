@@ -358,70 +358,138 @@ nav ul li:nth-last-child(1) a img {
 /*SLIDE 4*/
 
 .slide4 img{
-    width: 150px;
+    width: 50px;
     position: absolute;
     right: 0;
-    bottom: -1750px;
+    bottom: -525px;
 }
 
 .slide4-2 .kaos{
-    width: 225px;
+    width: 100px;
     background: #DDEEE9;
     position: absolute;
-    bottom: -1800px;
-    right: -60px;
+    bottom: -240px;
+    right: -20px;
     
 }
 
 .slide4-2 .kameja{
-    width: 225px;
+    width: 100px;
     background: #F7EFE0;
     position: absolute;
-    bottom: -1800px;
-    right: 50px;
+    bottom: -240px;
+    right: 5px;
+    
     
 }
 
 .slide4-2 .tas{
-    width: 225px;
+    width: 100px;
     background: #DAD7DF;
     position: absolute;
-    bottom: -2050px;
-    right: 630px;
+    bottom: -350px;
+    right: 236px;
+    
     
 }
 
 .slide4-2 .sepatu{
-    width: 310px;
-    height: 320px;
+    width: 140px;
     background: #D7E2EA;
     position: absolute;
-    bottom: -2130px;
-    right: 655px;
+    bottom: -355px;
+    right: 220px;
+    
     
 }
 
 .slide4-3 h1{
     font-family: Gilroy-Bold, sans-serif;
-    font-size: 60px;
+    font-size: 22px;
     color: #4C3494;
-    line-height: 80px;
+    line-height: 20px;
     font-weight: 750;
     position: absolute;
-    bottom: -1780px;
-    right: 150px;
+    bottom: -230px;
+    right: 40px;
    
 }
 
 .slide4-4 .produk{
+    font-size: 10px;
     position: absolute;
-    bottom: -2000px;
-    right: -760px;
+    bottom: -700px;
+    right: -200px;
 
 }
 
+.slide4-4 .ceklis1{
+    position: absolute;
+    bottom: 48px;
+    left: -30px;
+}
 
+.slide4-4 .beragam{
+    position: absolute;
+     bottom: -700px;
+     right: -200px;
+}
 
+.beragam .ceklis2{
+    position: absolute;
+    bottom: 48px;
+    left: -30px;
+}
+
+.marketing {
+   position: absolute;
+     bottom: -700px;
+     right: -200px;
+}
+
+.marketing .ceklis3{
+    position: absolute;
+    bottom: 48px;
+    left: -30px;
+}
+
+.membantu{
+    font-size: 11px;
+    position: absolute;
+    bottom: -700px;
+     right: -200px;
+}
+
+.membantu .ceklis4{
+    position: absolute;
+    bottom: 48px;
+    left: -30px;
+}
+
+.daftar button{
+    font-family: roboto;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #4C3494;
+    border: 1px solid #4C3494;
+    font-weight: normal;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: .3s ease;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: absolute;
+    bottom: -2110px;
+    right: 410px;
+}
+
+.dekorasi7{
+    width: 0;
+    position: absolute;
+    bottom: -2535px;
+    right: -300px;
+}
 
 
 
@@ -490,6 +558,7 @@ nav ul li:nth-last-child(1) a img {
 /*JUMBOTRON*/
 
 .jumbotron{
+    width: 100%;
     background-image: url(img/banner.png);
     background-position: top left;
     background-repeat: no-repeat;
@@ -543,7 +612,9 @@ nav ul li:nth-last-child(1) a img {
 .container button:hover {
     background-color: white;
     color: #4C3494;
+    text-decoration: none;
 }
+
 /*BUTTON AKHIR*/
 
 /*DEKORASI*/
@@ -811,5 +882,140 @@ nav ul li:nth-last-child(1) a img {
     right: 440px;
 }
 /*SLIDE 3 AKHIR*/
+
+
+/*SLIDE 4*/
+
+.slide4 img{
+    width: 150px;
+    position: absolute;
+    right: 0;
+    bottom: -1750px;
+}
+
+.slide4-2 .kaos{
+    width: 225px;
+    background: #DDEEE9;
+    position: absolute;
+    bottom: -1800px;
+    right: -60px;
+    
+}
+
+.slide4-2 .kameja{
+    width: 225px;
+    background: #F7EFE0;
+    position: absolute;
+    bottom: -1800px;
+    right: 50px;
+    
+}
+
+.slide4-2 .tas{
+    width: 225px;
+    background: #DAD7DF;
+    position: absolute;
+    bottom: -2050px;
+    right: 630px;
+    
+}
+
+.slide4-2 .sepatu{
+    width: 310px;
+    height: 320px;
+    background: #D7E2EA;
+    position: absolute;
+    bottom: -2130px;
+    right: 655px;
+    
+}
+
+.slide4-3 h1{
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 60px;
+    color: #4C3494;
+    line-height: 80px;
+    font-weight: 750;
+    position: absolute;
+    bottom: -1780px;
+    right: 150px;
+   
+}
+
+.slide4-4 .produk{
+    position: absolute;
+    bottom: -2000px;
+    right: -790px;
+
+}
+
+.slide4-4 .ceklis1{
+    position: absolute;
+    bottom: 48px;
+    left: -30px;
+}
+
+.slide4-4 .beragam{
+    position: absolute;
+    bottom: -2000px;
+    right: -1080px;
+}
+
+.beragam .ceklis2{
+    position: absolute;
+    bottom: 48px;
+    left: -30px;
+}
+
+.marketing {
+   position: absolute;
+    bottom: -2140px;
+    right: -770px;
+}
+
+.marketing .ceklis3{
+    position: absolute;
+    bottom: 48px;
+    left: -30px;
+}
+
+.membantu{
+    font-size: 11px;
+    position: absolute;
+    bottom: -2140px;
+    right: -1080px;
+}
+
+.membantu .ceklis4{
+    position: absolute;
+    bottom: 48px;
+    left: -30px;
+}
+
+.daftar button{
+    font-family: roboto;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #4C3494;
+    border: 1px solid #4C3494;
+    font-weight: normal;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: .3s ease;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: absolute;
+    bottom: -2110px;
+    right: 410px;
+}
+
+.dekorasi7{
+    background-size: 0;
+    position: absolute;
+    bottom: -2530px;
+    right: 200px;
+}
+
 
 }
