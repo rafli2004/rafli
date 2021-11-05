@@ -2,7 +2,26 @@ body {
     overflow-x:hidden;
 }
 
+.container2{
+    width: 100%;
+    height: 190px;
+    position: absolute;
+    bottom: -100px;
+}
 
+.container3{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: -790px;
+}
+
+.container4{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: -730px;
+}
 
 .navbar{
     position: relative;
@@ -136,7 +155,7 @@ nav ul li:nth-last-child(1) a img {
     text-align: left;
     font-weight: 800;
     position: absolute;
-    bottom: 70px;
+    bottom: 150px;
     left: 30px;
 }
 
@@ -147,21 +166,21 @@ nav ul li:nth-last-child(1) a img {
     font-size: 10px;
     text-align: left;
     position: absolute;
-    bottom: 15px;
+    bottom: 100px;
     left: 30px;
 }
 
 .section1 .banner img{
     width: 200px;
     position: absolute;
-    bottom: -20px;
+    bottom: 100px;
     right: 50px;
 }
 
 .lingkaran{
     width: 20px;
     position: absolute;
-    top: 669px;
+    top: 100px;
     right: 0;
     left: 400px;
 }
@@ -169,7 +188,7 @@ nav ul li:nth-last-child(1) a img {
 .dekorasi3{
     width: 60px;
     position: absolute;
-    top: 420px;
+    top: -135px;
     right: 0;
 }
 
@@ -185,7 +204,7 @@ nav ul li:nth-last-child(1) a img {
     display: inline-block;
     grid-template-columns: repeat(3, 1fr);
     padding: 150px;
-    margin-top: 80px;
+    margin-top: -400px;
     margin-left: -60px;
 }
 
@@ -236,7 +255,7 @@ nav ul li:nth-last-child(1) a img {
 
 .slide3-2{
     position: absolute;
-    bottom: -710px;
+    bottom: 80px;
     right: 90px;
 }
 
@@ -413,7 +432,7 @@ nav ul li:nth-last-child(1) a img {
     line-height: 25px;
     font-weight: 750;
     position: absolute;
-    bottom: -205px;
+    bottom: -220px;
     right: 80px;
    
 }
@@ -429,8 +448,8 @@ nav ul li:nth-last-child(1) a img {
 
 .slide4-4 .produk{
     position: absolute;
-    bottom: -910px;
-    right: -260px;
+    bottom: -200px;
+    right: -270px;
 
 }
 
@@ -452,8 +471,8 @@ nav ul li:nth-last-child(1) a img {
 
 .slide4-4 .beragam{
     position: absolute;
-    bottom: -960px;
-    right: -260px;
+    bottom: -250px;
+    right: -270px;
 }
 
 .beragam .ceklis2{
@@ -474,8 +493,8 @@ nav ul li:nth-last-child(1) a img {
 
 .marketing {
     position: absolute;
-    bottom: -1010px;
-    right: -260px;
+    bottom: -300px;
+    right: -270px;
 }
 
 .marketing .ceklis3{
@@ -496,8 +515,8 @@ nav ul li:nth-last-child(1) a img {
 .membantu{
     font-size: 12px;
     position: absolute;
-    bottom: -1060px;
-    right: -260px;
+    bottom: -350px;
+    right: -270px;
 }
 
 .membantu .ceklis4{
@@ -521,7 +540,7 @@ nav ul li:nth-last-child(1) a img {
     padding-right: 20px;
     padding-left: 20px;
     position: absolute;
-    bottom: -490px;
+    bottom: -520px;
     right: -70px;
 }
 
