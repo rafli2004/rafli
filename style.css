@@ -2,6 +2,24 @@ body {
     overflow-x:hidden;
 }
 
+.container4{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.container3{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
 .navbar{
     position: relative;
     z-index: 1;
@@ -411,7 +429,7 @@ nav ul li:nth-last-child(1) a img {
     line-height: 25px;
     font-weight: 750;
     position: absolute;
-    bottom: -195px;
+    bottom: -205px;
     right: 80px;
    
 }
@@ -1252,6 +1270,24 @@ nav ul li:nth-last-child(1) a img {
 
 /*FOOTER ENDA*/
 
+
+.container4{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.container3{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
 
 
 }
