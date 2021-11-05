@@ -1,3 +1,7 @@
+body {
+    overflow-x:hidden;
+}
+
 .navbar{
     position: relative;
     z-index: 1;
@@ -163,7 +167,7 @@ nav ul li:nth-last-child(1) a img {
 .dekorasi3{
     width: 60px;
     position: absolute;
-    top: 423px;
+    top: 420px;
     right: 0;
 }
 
@@ -176,20 +180,19 @@ nav ul li:nth-last-child(1) a img {
 
 /*overview*/
 .overview {
-    display: grid;
+    display: inline-block;
     grid-template-columns: repeat(3, 1fr);
     padding: 150px;
-    margin-top: 50px;
-    margin-left: -150px;
+    margin-top: 30px;
+    margin-left: -60px;
 }
 
 .overview .item-overview {
-    width: 150px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-right: 2px solid rgba(0, 0, 0, .2);
 }
 
 .overview .item-overview:nth-last-child(1) {
@@ -197,20 +200,20 @@ nav ul li:nth-last-child(1) a img {
 }
 
 .overview .item-overview img {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
 }
 
 .overview .item-overview h5 {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     margin-top: 20px;
 }
 
 .overview .item-overview p {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 400;
     text-align: center;
     color: #333;
@@ -231,7 +234,7 @@ nav ul li:nth-last-child(1) a img {
 
 .slide3-2{
     position: absolute;
-    bottom: -420px;
+    bottom: -660px;
     right: 90px;
 }
 
@@ -310,7 +313,7 @@ nav ul li:nth-last-child(1) a img {
     width: 50px;
     position: absolute;
     right: 0;
-    bottom: -480px;
+    bottom: -735px;
 }
 
 .slide3-3 .Ellipse1{
@@ -361,143 +364,145 @@ nav ul li:nth-last-child(1) a img {
     width: 50px;
     position: absolute;
     right: 0;
-    bottom: -525px;
+    bottom: -783px;
 }
 
 .slide4-2 .kaos{
-    width: 150px;
+    width: 100px;
     background: #DDEEE9;
     position: absolute;
-    bottom: -290px;
-    right: -120px;
+    bottom: -250px;
+    right: 10px;
     
 }
 
 .slide4-2 .kameja{
-    width: 150px;
-    background: #F7EFE0;
+    width: 100px;
+    background-color: #F7EFE0;
+    background-size: 100px;
     position: absolute;
-    bottom: -290px;
-    right: -145px;
-    
-    
+    bottom: -250px;
+    right: 35px;
 }
 
 .slide4-2 .tas{
-    width: 150px;
+    width: 100px;
     background: #DAD7DF;
     position: absolute;
-    bottom: -460px;
-    right: 137px;
-    
+    bottom: -360px;
+    right: 267px;
     
 }
 
 .slide4-2 .sepatu{
-    width: 200px;
+    width: 130px;
+    height: 140px;
     background: #D7E2EA;
     position: absolute;
-    bottom: -460px;
-    right: 60px;
-    
+    bottom: -394px;
+    right: 260px;
     
 }
 
 .slide4-3 h1{
     font-family: Gilroy-Bold, sans-serif;
-    font-size: 35px;
+    font-size: 22px;
     color: #4C3494;
-    line-height: 33px;
+    line-height: 25px;
     font-weight: 750;
     position: absolute;
-    bottom: -550px;
-    right: 120px;
+    bottom: -215px;
+    right: 80px;
    
 }
 
 .produk h4{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .produk p{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 
 .slide4-4 .produk{
     position: absolute;
-    bottom: -1000px;
-    right: -30px;
+    bottom: -900px;
+    right: -260px;
 
 }
 
 .slide4-4 .ceklis1{
+    width: 20px;
     position: absolute;
-    bottom: 48px;
-    left: -20px;
+    bottom: 42px;
+    left: -10px;
 }
 
 
 .beragam h4{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .beragam p{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .slide4-4 .beragam{
     position: absolute;
-    bottom: -1000px;
-     right: -250px;
+    bottom: -950px;
+    right: -260px;
 }
 
 .beragam .ceklis2{
+    width: 20px;
     position: absolute;
-    bottom: 48px;
-    left: -20px;
+    bottom: 42px;
+    left: -10px;
 }
 
 
 .marketing h4{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .marketing p{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .marketing {
     position: absolute;
-    bottom: -1100px;
-    right: -30px;
+    bottom: -1000px;
+    right: -260px;
 }
 
 .marketing .ceklis3{
+    width: 20px;
     position: absolute;
-    bottom: 48px;
-    left: -20px;
+    bottom: 42px;
+    left: -10px;
 }
 
 .membantu h4{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .membantu p{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .membantu{
     font-size: 12px;
     position: absolute;
-    bottom: -1100px;
-    right: -250px;
+    bottom: -1050px;
+    right: -260px;
 }
 
 .membantu .ceklis4{
+    width: 20px;
     position: absolute;
-    bottom: 48px;
-    left: -20px;
+    bottom: 42px;
+    left: -10px;
 }
 
 .daftar button{
@@ -514,8 +519,13 @@ nav ul li:nth-last-child(1) a img {
     padding-right: 20px;
     padding-left: 20px;
     position: absolute;
-    bottom: -830px;
+    bottom: -490px;
     right: -70px;
+}
+
+.daftar button:hover {
+    background-color: white;
+    color: #4C3494;
 }
 
 .dekorasi7 img{
@@ -527,11 +537,85 @@ nav ul li:nth-last-child(1) a img {
 }
 
 
-
-
-
-
 /*SLIDE 4 AKHIR*/
+
+
+/*FOOTER*/
+
+.footer{
+        position: absolute;
+        bottom: -1770px;
+        width: 100%;
+        height: 400;
+        background-color:#e9eff0;
+}
+
+.logo img{
+        width: 170px;
+        margin-top: 20px;
+        margin-left: 10px;
+}
+
+.word a{
+    text-decoration: none;
+    color: #8c9091;
+}
+
+.word a:hover{
+    color: #4C3494;
+}
+
+.word{
+    display: inline-block;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
+.word p{
+    font-size: 12px;
+}
+
+.word2{
+    margin-top: 20px;
+}
+
+.word3{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.donload img{
+    display: block;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.donload .appstore{
+    position: absolute;
+    top: 5px;
+}
+
+.donload .playstore{
+    position: absolute;
+    bottom: -110px;
+}
+
+.copyright{
+    margin-top: 130px;
+    border-top: 1px solid #d1d5de;
+}
+
+.copyright h5{
+    font-size: 16px;
+    color: #8c9091;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+/*FOOTER END*/
+
+
+
 
 
 
@@ -540,6 +624,11 @@ nav ul li:nth-last-child(1) a img {
 /*DEKSTOP VERSION*/
 
 @media (min-width: 992px) { 
+
+
+body {
+    overflow-x: hidden;
+}
 
 /*NAVBAR*/
 .navbar{
@@ -725,7 +814,7 @@ nav ul li:nth-last-child(1) a img {
 .dekorasi3{
     width: 150px;
     position: absolute;
-    top: 657px;
+    top: 656px;
     right: 0;
 }
 
@@ -977,6 +1066,14 @@ nav ul li:nth-last-child(1) a img {
    
 }
 
+.produk h4{
+    font-size: 25px;
+}
+
+.produk p{
+    font-size: 14px;
+}
+
 .slide4-4 .produk{
     position: absolute;
     bottom: -2000px;
@@ -985,22 +1082,41 @@ nav ul li:nth-last-child(1) a img {
 }
 
 .slide4-4 .ceklis1{
+    width: 32px;
     position: absolute;
     bottom: 48px;
     left: -30px;
+}
+
+.beragam h4{
+    font-size: 25px;
+}
+
+.beragam p{
+    font-size: 14px;
 }
 
 .slide4-4 .beragam{
     position: absolute;
     bottom: -2000px;
-    right: -1080px;
+    right: -1060px;
 }
 
 .beragam .ceklis2{
+    width: 32px;
     position: absolute;
     bottom: 48px;
     left: -30px;
 }
+
+.marketing h4{
+    font-size: 25px;
+}
+
+.marketing p{
+    font-size: 14px;
+}
+
 
 .marketing {
    position: absolute;
@@ -1009,19 +1125,28 @@ nav ul li:nth-last-child(1) a img {
 }
 
 .marketing .ceklis3{
+    width: 32px;
     position: absolute;
     bottom: 48px;
     left: -30px;
 }
 
+.membantu h4{
+    font-size: 25px;
+}
+
+.membantu p{
+    font-size: 14px;
+}
+
 .membantu{
-    font-size: 11px;
     position: absolute;
     bottom: -2140px;
-    right: -1080px;
+    right: -1060px;
 }
 
 .membantu .ceklis4{
+    width: 32px;
     position: absolute;
     bottom: 48px;
     left: -30px;
@@ -1041,7 +1166,7 @@ nav ul li:nth-last-child(1) a img {
     padding-right: 30px;
     padding-left: 30px;
     position: absolute;
-    bottom: -2110px;
+    bottom: -2120px;
     right: 410px;
 }
 
@@ -1051,6 +1176,82 @@ nav ul li:nth-last-child(1) a img {
     bottom: -2530px;
     right: 200px;
 }
+
+.footer{
+        position: absolute;
+        bottom: -2700px;
+        width: 100%;
+        height: 386px;
+        background-color:#e9eff0;
+}
+
+.logo img{
+        width: 170px;
+        margin-top: 90px;
+        margin-left: 100px;
+}
+
+.word a{
+    text-decoration: none;
+    color: #8c9091;
+}
+
+.word a:hover{
+    color: #4C3494;
+}
+
+.word{
+    display: inline;
+    position:absolute;
+    top: 70px;
+    right: 830px;
+}
+
+.word p{
+    font-size: 18px;
+}
+
+.word2{
+    position: absolute;
+    left: 210px;
+    top: -20px;
+}
+
+.word3{
+    position: absolute;
+    left: 400px;
+    top: -20px;
+}
+
+.donload img{
+    display: block;
+    width: 240px;
+    margin-left: 1000px;
+}
+
+.donload .appstore{
+    position: absolute;
+    top: -80px;
+}
+
+.donload .playstore{
+    position: absolute;
+    bottom: -100px;
+}
+
+.copyright{
+    margin-top: 160px;
+    border-top: 1px solid #d1d5de;
+}
+
+.copyright h5{
+    color: #8c9091;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+/*FOOTER ENDA*/
+
 
 
 }
