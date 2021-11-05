@@ -2,6 +2,8 @@ body {
     overflow-x:hidden;
 }
 
+
+
 .navbar{
     position: relative;
     z-index: 1;
@@ -781,7 +783,7 @@ nav ul li:nth-last-child(1) a img {
     text-align: left;
     font-weight: 800;
     position: absolute;
-    bottom: -430px;
+    bottom: -330px;
     right: 700px;
 }
 
@@ -792,14 +794,14 @@ nav ul li:nth-last-child(1) a img {
     font-size: 20px;
     text-align: left;
     position: absolute;
-    bottom: -550px;
+    bottom: -440px;
     right: 925px;
 }
 
 .section1 .banner img{
     width: 590px;
     position: absolute;
-    bottom: -600px;
+    bottom: -500px;
     left: 700px;
 }
 
@@ -807,14 +809,14 @@ nav ul li:nth-last-child(1) a img {
     width: 51px;
     position: absolute;
     right: 0;
-    top: 1300px;
+    top: 600px;
     left: 1200px;
 }
 
 .dekorasi3{
     width: 150px;
     position: absolute;
-    top: 640px;
+    top: 0px;
     right: 0;
 }
 
@@ -822,7 +824,7 @@ nav ul li:nth-last-child(1) a img {
     width: 150px;
     position: absolute;
     left: 0;
-    top: 1440px;
+    top: 730px;
 }
 
 /*overview*/
@@ -831,7 +833,7 @@ nav ul li:nth-last-child(1) a img {
     grid-template-columns: repeat(3, 1fr);
     padding: 150px;
     position: absolute;
-    bottom: -1000px;
+    bottom: -870px;
     right: 70px;
 }
 
@@ -876,13 +878,13 @@ nav ul li:nth-last-child(1) a img {
 .slide3 img{
     width: 1200px;
     position: absolute;
-    bottom:-1400px;
+    bottom:-1300px;
     right: 60px;
 }
 
 .slide3-2{
     position: absolute;
-    bottom: -1430px;
+    bottom: -1220px;
     right: 300px;
 }
 
@@ -961,34 +963,34 @@ nav ul li:nth-last-child(1) a img {
     width: 150px;
     position: absolute;
     right: 0;
-    bottom: -1610px;
+    bottom: -1400px;
 }
 
 .slide3-3 .Ellipse1{
     width: 80px;
     position: absolute;
-    bottom: -1150px;
+    bottom: -900px;
     right: 930px;
 }
 
 .slide3-3 .Ellipse2{
     width: 80px;
     position: absolute;
-    bottom: -1400px;
+    bottom: -1200px;
     right: 1050px;
 }
 
 .slide3-3 .Ellipse3{
     width: 55px;
     position: absolute;
-    bottom: -1520px;
+    bottom: -1300px;
     right: 620px;
 }
 
 .slide3-3 .Ellipse4{
     width: 55px;
     position: absolute;
-    bottom: -1400px;
+    bottom: -1280px;
     right: 290px;
 }
 
@@ -1002,7 +1004,7 @@ nav ul li:nth-last-child(1) a img {
 .slide3-3 .Ellipse6{
     width: 55px;
     position: absolute;
-    bottom: -1120px;
+    bottom: -1000px;
     right: 440px;
 }
 /*SLIDE 3 AKHIR*/
@@ -1021,7 +1023,7 @@ nav ul li:nth-last-child(1) a img {
     width: 225px;
     background: #DDEEE9;
     position: absolute;
-    bottom: -1800px;
+    bottom: -1860px;
     right: -60px;
     
 }
@@ -1030,7 +1032,7 @@ nav ul li:nth-last-child(1) a img {
     width: 225px;
     background: #F7EFE0;
     position: absolute;
-    bottom: -1800px;
+    bottom: -1860px;
     right: 50px;
     
 }
@@ -1039,7 +1041,7 @@ nav ul li:nth-last-child(1) a img {
     width: 225px;
     background: #DAD7DF;
     position: absolute;
-    bottom: -2050px;
+    bottom: -2090px;
     right: 630px;
     
 }
@@ -1049,7 +1051,7 @@ nav ul li:nth-last-child(1) a img {
     height: 320px;
     background: #D7E2EA;
     position: absolute;
-    bottom: -2130px;
+    bottom: -2185px;
     right: 655px;
     
 }
@@ -1061,7 +1063,7 @@ nav ul li:nth-last-child(1) a img {
     line-height: 80px;
     font-weight: 750;
     position: absolute;
-    bottom: -1780px;
+    bottom: -1860px;
     right: 150px;
    
 }
@@ -1076,7 +1078,7 @@ nav ul li:nth-last-child(1) a img {
 
 .slide4-4 .produk{
     position: absolute;
-    bottom: -2000px;
+    bottom: -1950px;
     right: -790px;
 
 }
@@ -1098,7 +1100,7 @@ nav ul li:nth-last-child(1) a img {
 
 .slide4-4 .beragam{
     position: absolute;
-    bottom: -2000px;
+    bottom: -1950px;
     right: -1060px;
 }
 
@@ -1120,7 +1122,7 @@ nav ul li:nth-last-child(1) a img {
 
 .marketing {
    position: absolute;
-    bottom: -2140px;
+    bottom: -2060px;
     right: -770px;
 }
 
@@ -1141,7 +1143,7 @@ nav ul li:nth-last-child(1) a img {
 
 .membantu{
     position: absolute;
-    bottom: -2140px;
+    bottom: -2060px;
     right: -1060px;
 }
 
@@ -1166,20 +1168,20 @@ nav ul li:nth-last-child(1) a img {
     padding-right: 30px;
     padding-left: 30px;
     position: absolute;
-    bottom: -2120px;
+    bottom: -21px;
     right: 410px;
 }
 
 .dekorasi7{
     background-size: 0;
     position: absolute;
-    bottom: -2530px;
+    bottom: -200px;
     right: 200px;
 }
 
 .footer{
         position: absolute;
-        bottom: -2700px;
+        bottom: -2600px;
         width: 100%;
         height: 386px;
         background-color:#e9eff0;
@@ -1253,5 +1255,25 @@ nav ul li:nth-last-child(1) a img {
 /*FOOTER ENDA*/
 
 
+.container2{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: -100px;
+}
+
+.container3{
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    bottom: -170px;
+}
+
+.container4{
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    bottom: 30px;
+}
 
 }
