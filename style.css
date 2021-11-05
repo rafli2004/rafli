@@ -152,7 +152,7 @@ nav ul li:nth-last-child(1) a img {
 .section1 .banner img{
     width: 200px;
     position: absolute;
-    bottom: 15px;
+    bottom: -20px;
     right: 50px;
 }
 
@@ -814,7 +814,7 @@ nav ul li:nth-last-child(1) a img {
 .dekorasi3{
     width: 150px;
     position: absolute;
-    top: 656px;
+    top: 600px;
     right: 0;
 }
 
