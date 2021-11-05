@@ -159,7 +159,7 @@ nav ul li:nth-last-child(1) a img {
 .lingkaran{
     width: 20px;
     position: absolute;
-    top: 630px;
+    top: 669px;
     right: 0;
     left: 400px;
 }
@@ -183,7 +183,7 @@ nav ul li:nth-last-child(1) a img {
     display: inline-block;
     grid-template-columns: repeat(3, 1fr);
     padding: 150px;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-left: -60px;
 }
 
@@ -234,7 +234,7 @@ nav ul li:nth-last-child(1) a img {
 
 .slide3-2{
     position: absolute;
-    bottom: -660px;
+    bottom: -710px;
     right: 90px;
 }
 
@@ -411,7 +411,7 @@ nav ul li:nth-last-child(1) a img {
     line-height: 25px;
     font-weight: 750;
     position: absolute;
-    bottom: -215px;
+    bottom: -195px;
     right: 80px;
    
 }
@@ -427,7 +427,7 @@ nav ul li:nth-last-child(1) a img {
 
 .slide4-4 .produk{
     position: absolute;
-    bottom: -900px;
+    bottom: -910px;
     right: -260px;
 
 }
@@ -450,7 +450,7 @@ nav ul li:nth-last-child(1) a img {
 
 .slide4-4 .beragam{
     position: absolute;
-    bottom: -950px;
+    bottom: -960px;
     right: -260px;
 }
 
@@ -472,7 +472,7 @@ nav ul li:nth-last-child(1) a img {
 
 .marketing {
     position: absolute;
-    bottom: -1000px;
+    bottom: -1010px;
     right: -260px;
 }
 
@@ -494,7 +494,7 @@ nav ul li:nth-last-child(1) a img {
 .membantu{
     font-size: 12px;
     position: absolute;
-    bottom: -1050px;
+    bottom: -1060px;
     right: -260px;
 }
 
@@ -814,7 +814,7 @@ nav ul li:nth-last-child(1) a img {
 .dekorasi3{
     width: 150px;
     position: absolute;
-    top: 650px;
+    top: 640px;
     right: 0;
 }
 
