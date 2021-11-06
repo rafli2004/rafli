@@ -1,6 +1,4 @@
-body {
-    overflow-x: hidden;
-}
+
 
 .navbar{
     position: relative;
@@ -593,10 +591,6 @@ nav ul li:nth-last-child(1) a img {
 
 @media (min-width: 992px) { 
 
-
-body {
-    overflow-x: hidden;
-}
 
 /*NAVBAR*/
 .navbar{
