@@ -8,7 +8,7 @@ body {
 }
 
 .navbar .nav-item{
-    background-color: #4C3494;
+    background-color: grey;
 }
 
 .navbar-brand{
@@ -45,7 +45,6 @@ nav ul li:nth-last-child(1) a img {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 60vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -82,7 +81,7 @@ nav ul li:nth-last-child(1) a img {
     cursor: pointer;
     transition: .3s ease;
     text-align: center;
-    margin-left: 90px;
+    margin-left: 140px;
     margin-top: 10px;
 }
 
@@ -91,7 +90,7 @@ nav ul li:nth-last-child(1) a img {
     color: #4C3494;
 }
 .dekorasi1{
-    width: 80px;
+    width: 100px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -112,17 +111,16 @@ nav ul li:nth-last-child(1) a img {
 /*SLIDE 2*/
 
 .slide2{
-    margin-right: 0;
-    margin-left: 0;
+    width: 100%;
     height: 770px;
     background-color: white;
     position: absolute;
-    bottom: -680px;
+    bottom: -547px;
 
 }
 
 .dekorasi3{
-    width: 80px;
+    width: 100px;
     position: absolute;
     right: 0;
 }
@@ -130,19 +128,19 @@ nav ul li:nth-last-child(1) a img {
 .banner{
     width: 200px;
     position: absolute;
-    top: -190px;
-    right: 10px;
+    top: -210px;
+    right: 70px;
 }
 
 .lingkaran{
     width: 40px;
-    margin-top: 20px;
-    margin-left: 340px;
+    margin-top: -10px;
+    margin-left: 400px;
 }
 
 .slide2-word{
     margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .slide2-word h1{
@@ -169,8 +167,8 @@ nav ul li:nth-last-child(1) a img {
     grid-template-columns: repeat(3, 1fr);
     padding: 150px;
     position: absolute;
-    top: 120px;
-    right: -80px;
+    top: 100px;
+    right: -30px;
 }
 
 .overview .item-overview {
@@ -222,18 +220,17 @@ nav ul li:nth-last-child(1) a img {
 /*SLIDE3*/
 
 .slide3{
-    margin-right: 0;
-    margin-left: 0;
+    width: 100%;
     height: 350px;
     background-color: white;
     position: absolute;
-    bottom: -1030px;
+    bottom: -895px;
 }
 
 .indonesia{
-    width: 380px;
-    margin-top: 70px;
-    margin-left: 10px;
+    width: 450px;
+    margin-top: 80px;
+    margin-left:20px;
 }
 
 .dekorasi5{
@@ -245,8 +242,8 @@ nav ul li:nth-last-child(1) a img {
 
 .content1{
     position: absolute;
-    top: 90px;
-    left: 60px;
+    top: 110px;
+    left: 100px;
 }
 
 .content1 h1{
@@ -328,26 +325,24 @@ nav ul li:nth-last-child(1) a img {
 
 /*SLIDE 4*/
 
-.slide4{    
+.slide4{
     width: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
     height: 500px;
-    background-color: skyblue;
+    background-color: white;
     position: absolute;
-    bottom: -1527px;
+    bottom: -1390px;
 }
 
 .dekorasi6{
     width: 80px;
     position: absolute;
-    right: 0;
-    top: -2px;
+    right: -15px;
+    top: 0;
 }
 
 
 .kaos{
-    width: 80px;
+    width: 100px;
     background: #DDEEE9;
     position: absolute;
     top: 50px;
@@ -357,31 +352,33 @@ nav ul li:nth-last-child(1) a img {
 }
 
 .kameja{
-    width: 80px;
+    width: 100px;
     background: #F7EFE0;
     position: absolute;
     top: 50px;
-    right: 30px;
+    right: 35px;
+
+    
     
 }
 
 .tas{
-    width: 80px;
+    width: 100px;
     background: #DAD7DF;
     position: absolute;
-    top: 135px;
-    right: 223px;
+    top: 155px;
+    right: 265px;
     
     
 }
 
 .sepatu{
-    width: 80px;
-    height: 100px;
+    width: 140px;
+    height: 160px;
     background: #D7E2EA;
     position: absolute;
-    top: 135px;
-    right: 245px;
+    top: 155px;
+    right: 250px;
    
     
 }
@@ -408,7 +405,7 @@ nav ul li:nth-last-child(1) a img {
 
 .slide4-4 .produk{
     position: absolute;
-    right: -185px;
+    right: -270px;
     top: 160px;
     
 
@@ -431,7 +428,7 @@ nav ul li:nth-last-child(1) a img {
 
 .slide4-4 .beragam{
     position: absolute;
-    right: -185px;
+    right: -270px;
     top: 220px;
     
 }
@@ -454,7 +451,7 @@ nav ul li:nth-last-child(1) a img {
 
 .marketing {
    position: absolute;
-   right: -185px;
+   right: -270px;
    top: 280px;
     
 }
@@ -476,7 +473,7 @@ nav ul li:nth-last-child(1) a img {
 
 .membantu{
     position: absolute;
-    right: -166px;
+    right: -250px;
     top: 340px;
     
 }
@@ -509,17 +506,16 @@ nav ul li:nth-last-child(1) a img {
 .dekorasi7{
     width: 100px;
     position: absolute;
-    left: 20px;
-    bottom: 110px;
+    left: 30px;
+    bottom: 50px;
 }
 
 /*FOOTER*/
 
 .footer{
         position: absolute;
-        bottom: -2100px;
-        margin-right: 0;
-        margin-left: 0;
+        bottom: -1970px;
+        width: 100%;
         height: 400;
         background-color:#e9eff0;
 }
@@ -577,9 +573,6 @@ nav ul li:nth-last-child(1) a img {
 .copyright{
     margin-top: 130px;
     border-top: 1px solid #d1d5de;
-    margin-right: 0;
-    margin-left: 0;
-
 }
 
 .copyright h5{
@@ -959,7 +952,7 @@ nav ul li:nth-last-child(1) a img {
 .dekorasi6{
     width: 150px;
     position: absolute;
-    right: 0;
+    right: -15px;
     top: 0;
 }
 
@@ -1212,6 +1205,11 @@ nav ul li:nth-last-child(1) a img {
 
 /*FOOTER ENDA*/
 
+
+
+
+
+}
 
 
 
